@@ -1,0 +1,187 @@
+/* Navigation */
+#navbar {
+    flex-direction: row;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* main section */
+#main{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#main::before{
+    height: 480px; 
+}
+
+#main p{
+    font-size: 13px;
+}
+
+/* install-lp section  */
+#install-lp{
+    flex-direction: column;
+}
+
+#install-lp .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(254, 178, 54);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    color: rgb(245, 245, 245);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/* main Section */
+#main{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main::before{ 
+    content: "";
+    position: absolute;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#main h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#main p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+/* install-lp Section */
+#install-lp{
+    margin: 34px;
+    display: flex;
+}
+#install-lp .box{ 
+    border: 2px solid rgb(255, 252, 252);
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: rgb(229, 243, 168);
+    margin-bottom: 20px;
+}
+
+#install-lp .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#install-lp .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+footer{
+    background: rgb(254, 178, 54);
+    color: rgb(0, 0, 0);
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+body {
+    background-image: url(download3.jpg);
+    background-color: rgb(208, 218, 163);
+   }
